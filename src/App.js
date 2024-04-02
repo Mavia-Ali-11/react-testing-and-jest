@@ -1,4 +1,4 @@
-import Greet from "./components/Greet"
+import Counter from "./components/Counter"
 
 function App() {
   return (
@@ -12,10 +12,9 @@ function App() {
         >
           Learn React
         </a>
-      </header>
 
-      <Greet />
-      <Greet name="Mustafa" />
+        <Counter />
+      </header>
     </div>
   );
 }
